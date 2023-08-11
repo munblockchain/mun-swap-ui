@@ -1,0 +1,87 @@
+{
+  "name": "Pools list on testnet",
+  "logoURI": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/29231450/Poodle-Standard-Gray-On-White-Standing.jpg",
+  "keywords": ["special tokens"],
+  "tags": {
+    "ProjectName": {
+      "name": "Project",
+      "description": "Tokens that are listed on Project"
+    }
+  },
+  "timestamp": "2021-06-12T00:00:00+00:00",
+  "base_token": {
+    "id": "mun-network",
+    "chain_id": "testmun-3",
+    "token_address": "",
+    "symbol": "TMUN",
+    "name": "Mun",
+    "decimals": 6,
+    "logoURI": "https://cryptologos.cc/logos/anyswap-any-logo.svg?v=022",
+    "tags": ["native"],
+    "native": true,
+    "denom": "utmun"
+  },
+  "pools": [
+    {
+      "pool_id": "MUN-DGM",
+      "pool_assets": [
+        {
+          "id": "mun-network",
+          "chain_id": "testmun-3",
+          "token_address": "",
+          "symbol": "TMUN",
+          "name": "Mun",
+          "decimals": 6,
+          "logoURI": "https://github.com/Sirius198/munswap-icons/blob/main/crypto/mun.png?raw=true",
+          "tags": ["native"],
+          "native": true,
+          "denom": "utmun"
+        },
+        {
+          "id": "mun-doge",
+          "chain_id": "testmun-3",
+          "token_address": "mun153e2w8u77h4ytrhgry846k5t8n9uea8xqesl66elqgls0lqwsz0q5q0vck",
+          "symbol": "DGM",
+          "name": "DogeMun",
+          "decimals": 6,
+          "logoURI": "https://github.com/Sirius198/munswap-icons/blob/main/crypto/dgm.png?raw=true",
+          "tags": ["memecoin"],
+          "native": false,
+          "denom": "dgm"
+        },
+        {
+          "id": "mun-swap",
+          "chain_id": "testmun-3",
+          "token_address": "mun1sslrhe0vthvnykwp2gz89rxx0kuaghstrpm6mtvfj6qszppd5g2qz5hedc",
+          "symbol": "MSWAP",
+          "name": "mswap",
+          "decimals": 6,
+          "logoURI": "/mswap.png",
+          "tags": ["memecoin"],
+          "native": false,
+          "denom": "umswap"
+        }
+      ],
+      "swap_address": "mun1guczj53xxl4347adagh23eelyhnxvugw2nqq0q0dr6kws7q35jyq4t3kxp",
+      "staking_address": "mun14wyesxwny7hu67vk93ea4gsmdeajt894lz7fycn6qn2a4nt8qk3scju99p",
+      "rewards_tokens": [
+        {
+          "rewards_address": "mun1vtyeq4fg79ysh5gr0r67hjx6msjrdjl60t2njskkjxkutcujzwmqzl6sxl",
+
+          "id": "mun-swap",
+          "symbol": "MSWAP",
+          "name": "mswap",
+          "logoURI": "/mswap.png",
+          "decimals": 6,
+          "native": false,
+          "denom": "umswap"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}

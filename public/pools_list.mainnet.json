@@ -1,0 +1,95 @@
+{
+  "name": "Pools list on mainnet",
+  "logoURI": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/29231450/Poodle-Standard-Gray-On-White-Standing.jpg",
+  "keywords": ["special tokens"],
+  "tags": {
+    "ProjectName": {
+      "name": "Project",
+      "description": "Tokens that are listed on Project"
+    }
+  },
+  "timestamp": "2021-06-12T00:00:00+00:00",
+  "base_token": {
+    "id": "mun-network",
+    "chain_id": "mun-1",
+    "token_address": "",
+    "symbol": "MUN",
+    "name": "Mun",
+    "decimals": 6,
+    "logoURI": "https://cryptologos.cc/logos/anyswap-any-logo.svg?v=022",
+    "tags": ["native"],
+    "native": true,
+    "denom": "umun"
+  },
+  "pools": [
+    {
+      "pool_id": "MUN-DGM",
+      "pool_assets": [
+        {
+          "id": "mun-network",
+          "chain_id": "mun-1",
+          "token_address": "",
+          "symbol": "MUN",
+          "name": "Mun",
+          "decimals": 6,
+          "logoURI": "https://github.com/Sirius198/munswap-icons/blob/main/crypto/mun.png?raw=true",
+          "tags": ["native"],
+          "native": true,
+          "denom": "umun"
+        },
+        {
+          "id": "mun-dgm",
+          "chain_id": "mun-1",
+          "token_address": "mun1stwdtk6ja0705v8qmtukcp4vd422p5vy4jr5wdc4qk44c57k955qex03yg",
+          "symbol": "DGM",
+          "name": "DogeMun",
+          "decimals": 6,
+          "logoURI": "https://github.com/Sirius198/munswap-icons/blob/main/crypto/dgm.png?raw=true",
+          "tags": ["memecoin"],
+          "native": false,
+          "denom": "dgm"
+        }
+      ],
+      "swap_address": "mun1fh0hm98gkd96rx3w92ea2wm45q85eu9g3hqvx2p968ppfqv392vsw2eqzw",
+      "staking_address": "",
+      "rewards_tokens": []
+    },
+    {
+      "pool_id": "MUN-USDC",
+      "pool_assets": [
+        {
+          "id": "mun-network",
+          "chain_id": "mun-1",
+          "token_address": "",
+          "symbol": "MUN",
+          "name": "Mun",
+          "decimals": 6,
+          "logoURI": "https://github.com/Sirius198/munswap-icons/blob/main/crypto/mun.png?raw=true",
+          "tags": ["native"],
+          "native": true,
+          "denom": "umun"
+        },
+        {
+          "id": "axlusdc",
+          "chain_id": "mun-1",
+          "token_address": "",
+          "symbol": "USDC",
+          "name": "USDC",
+          "decimals": 6,
+          "logoURI": "https://raw.githubusercontent.com/cosmos/chain-registry/18cfb9fdf626443b0569ce4f28acc9eab02030b8/axelar/images/usdc.svg",
+          "tags": ["native"],
+          "native": true,
+          "denom": "ibc/FA7775734CC73176B7425910DE001A1D2AD9B6D9E93129A5D0750EAD13E4E63A"
+        }
+      ],
+      "swap_address": "mun187zds75uenfxht2zqz7e0wxn3ushcawvf2ndrns6q63hgfn6ptqq7p9z9c",
+      "staking_address": "",
+      "rewards_tokens": []
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "chainId": "testmun-3",
+  "chainName": "mun",
+  "rpc": "https://node1.mun.money",
+  "rest": "https://node1api.mun.money",
+  "stakeCurrency": {
+    "coinDenom": "TMUN",
+    "coinMinimalDenom": "utmun",
+    "coinDecimals": 6
+  },
+  "bip44": {
+    "coinType": 118
+  },
+  "bech32Config": {
+    "bech32PrefixAccAddr": "mun",
+    "bech32PrefixAccPub": "munpub",
+    "bech32PrefixValAddr": "munvaloper",
+    "bech32PrefixValPub": "munvaloperpub",
+    "bech32PrefixConsAddr": "munvalcons",
+    "bech32PrefixConsPub": "munvalconspub"
+  },
+  "currencies": [
+    {
+      "coinDenom": "TMUN",
+      "coinMinimalDenom": "utmun",
+      "coinDecimals": 6,
+      "coinGeckoId": "mun-network"
+    }
+  ],
+  "feeCurrencies": [
+    {
+      "coinDenom": "TMUN",
+      "coinMinimalDenom": "utmun",
+      "coinDecimals": 6,
+      "coinGeckoId": "mun-network"
+    }
+  ],
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.05,
+    "high": 0.1
+  },
+  "features": ["cosmwasm"]
+}
